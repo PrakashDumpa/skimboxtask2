@@ -1,0 +1,48 @@
+.name {
+  text-align: center;
+}
+.menu {
+  display: flex;
+  list-style: none;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+#edit {
+  position: relative;
+}
+#editHoverMenu {
+  position: absolute;
+}
+
+.listItem {
+  font-size: 25px;
+  margin-right: 10px;
+  border: 0px;
+  background-color: #ffffff;
+}
+.addcolor {
+  background-color: blue;
+}
+.hoverMenu {
+  display: none;
+}
+.hovermenuList {
+  display: flex;
+  flex-direction: column;
+  border-style: solid;
+  margin: 0px;
+}
+.hoverListItem {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  padding: 0px 20px 0px;
+  font-size: large;
+  font-weight: 400;
+}
